@@ -1,0 +1,38 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+.signin-form{
+    width:550px;
+    height: 550px;
+    background: url('../img/signin.png') no-repeat center center / cover;
+}
+.signinform-inner{
+    width: 420px;
+    margin: auto;
+}
+.signinform-inner .input-group i{
+    z-index:9999 !important
+}
+.signinform-inner input,a:focus{
+    box-shadow:none !important
+}
+.signinform-inner .social-icons{
+    display: flex;
+    justify-content:center
+}
+.signinform-inner .social-icons a{
+    transition:.5s;
+    width:40px;
+    height: 40px;
+    display: grid;
+    place-items:center;
+    border:thin solid #ddd;
+    border-radius:50%;
+    float:left
+}
+.signinform-inner .social-icons a:hover{
+    background:#0D6EFD ;
+}
+.signinform-inner .social-icons a:hover i{
+    color:#fff !important;
+}
